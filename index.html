@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio-Gourab</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+   
+    <nav id="desktop-nav">
+      <div class="logo">Gourab kumar Dash</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Gourab Kumar Dash</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="gourab1.jpg" alt="Chiku profile picture" class="about-pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Gourab Kumar Dash</h1>
+
+        <p class="section__text__p2">Full-stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 icon"
+            onclick="window.open('.//Gourab.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1 icon" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+         <div id="socials-container">
+            <img
+            src=".//linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/kumar-gourab-951965245/')"
+          />
+          <img
+            src=".//github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/KumarGourav163')"
+          />
+          <img
+            src=".//facebook.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="window.open('https://www.facebook.com/lipu.dash.5895')"
+          />
+          <img
+            src=".//insta.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="window.open('https://www.instagram.com/_kumar_gourav__/')"
+          />
+        </div>
+
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="gourab2.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src=".//experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>HTML5, CSS3, JavaScript, Node js, C, My SQL, Mongo DB, Git&Github, React Js, Frontend Web Developer <br/>FullStack Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src=".//education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <!--<p>->B.Sc. Computer Science</p>-->
+              <p>->MCA</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Experienced and dedicated web developer with a strong foundation in HTML, CSS, and JavaScript. Proficient in utilizing version control systems like Git and GitHub to streamline collaborative development processes. Adept at creating visually appealing and responsive web designs that prioritize user experience. My technical expertise includes proficiency in front-end technologies such as HTML, CSS, and JavaScript, coupled with back-end proficiency using Node.js and Mongo DB. I have successfully designed and implemented secure authentication systems using JSON Web Tokens (JWT) and integrated third-party APIs to enhance application functionality.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src=".//arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Full-stack Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git &GitHub</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React Js</h3>
+                  <p>Project</p>
+                </div>
+              </article>
+             
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend & Server</h2>
+            <div class="article-container">
+              
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src=".//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mongo DB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src=".//arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src=".//project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">The Spiderman Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn icon"
+                onclick="window.open('https://github.com/KumarGourav163/Amazing-Spider-Man-Game')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn icon"
+                onclick="window.open('https://amazing-spider-man-game.vercel.app/')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src=".//project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">File Sharing Site</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn icon"
+                onclick="window.open('https://github.com/KumarGourav163/File-Sharing-Site')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn icon"
+                onclick="window.open('https://file-sharing-site-ten.vercel.app/')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src=".//project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">'JARVIS' Virtual Assistant</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn icon"
+                onclick="window.open('https://github.com/KumarGourav163/JRVIS-A-Virtual-Assistant')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn icon"
+                onclick="window.open('https://jrvis-a-virtual-assistant.vercel.app/')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src=".//arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src=".//email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com" target="_blank">gourabdash2015@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src=".//linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/kumar-gourab-951965245/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p></p>
+      <p>Copyright &#169; 2023 Gourab Kumar Dash. All Rights Reserved.</p>
+    </footer>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
